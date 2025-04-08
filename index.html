@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>3D Audio Visualizer</title>
+  </head>
+  <body>
+    <div class="controls">
+    <select id="track-select">
+      <option value="track1.mp3" selected>Track 1</option>
+      <option value="track2.mp3">Track 2</option>
+      <option value="track3.mp3">Track 3</option>
+    </select>
+    <button id="start-button">Start</button>
+    </div>
+    <canvas id="canvas"></canvas>
+    <script type="module" src="/src/blob.js"></script>
+  </body>
+</html>
